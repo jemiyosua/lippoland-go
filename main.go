@@ -55,6 +55,7 @@ func main() {
 	router.POST(webEndpoint+"LeaderInitiative", Web.LeaderInitiative)
 	router.POST(webEndpoint+"ListAward", Web.ListAward)
 	router.POST(webEndpoint+"ListCategoryDevHome", Web.ListCategoryDevHome)
+	router.POST(webEndpoint+"ListFooterMenu", Web.ListFooterMenu)
 	router.POST(webEndpoint+"ListHeaderMenu", Web.ListHeaderMenu)
 	router.POST(webEndpoint+"ListHeroHome", Web.ListHeroHome)
 	router.POST(webEndpoint+"ListImageDevHome", Web.ListImageDevHome)
